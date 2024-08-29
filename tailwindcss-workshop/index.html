@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body> 
-    Your Result
-    76
-    of 100
-  
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-  
-    Summary
-  
-    Reaction
-    80 / 100
-  
-    Memory
-    92 / 100
-  
-    Verbal
-    61 / 100
-  
-    Visual
-    72 / 100
-  
-    Continue
+<html lang="en">
 
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Workshop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            @apply bg-[#fcf3e3] m-0 p-0 flex items-center justify-center min-h-screen;
+        }
+    </style>
+</head>
+
+<body class="bg-[#fcf3e3] flex items-center justify-center min-h-screen m-0 p-0">
+    <section class="container flex items-center md:flex-row flex-col p-4">
+        <article class="md:w-1/2 mr-4">
+            <img class="md:block hidden w-full h-full object-cover rounded-lg" src="../assets/images/image-product-desktop.jpg" alt="Desktop Image">
+            <img class="md:hidden block w-full h-full object-cover rounded-lg" src="../assets/images/image-product-mobile.jpg" alt="Mobile Image">
+        </article>
+        <section class="md:w-1/2 flex justify-center flex-col">
+            <p class="uppercase tracking-wider text-gray-500 font-[Rajdhani] mb-3">Perfume</p>
+            <h1 class="mt-3 font-bold text-4xl font-[Rajdhani]">Gabrielle Essence Eau De Parfum</h1>
+            <p class="text-gray-700 mt-3">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <article class="flex items-center mt-4">
+                <p class="text-[#1d8034] font-bold text-3xl font-[Archivo Black]">$149.99</p>
+                <p class="text-lg text-gray-600 line-through ml-5 font-[Archivo Black]">$169.99</p>
+            </article>
+            <button class="flex items-center justify-center w-full bg-[#1d8034] text-white py-3 rounded-lg mt-6 hover:bg-green-800 transition duration-300 ease-in-out">
+                <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                    <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
+                </svg>
+                Add to Cart
+            </button>
+        </section>
+    </section>
+</body>
+
 </html>
