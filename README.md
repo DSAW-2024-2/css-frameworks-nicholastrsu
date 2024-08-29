@@ -1,5 +1,11 @@
 # Reto de HTML y CSS con Bootstrap y TailwindCSS
 
+
+
+BOOTSTRAP: https://dsaw-2024-2.github.io/css-frameworks-nicholastrsu/bootstrap-workshop/ 
+
+TAILWINDCSS: https://dsaw-2024-2.github.io/css-frameworks-nicholastrsu/tailwindcss-workshop
+
 ![Design preview for the Results summary component coding challenge](./assets/design/desktop-preview.jpg)
 ![Design preview for the Results summary component coding challenge](./assets/design/mobile-design.jpg)
 
